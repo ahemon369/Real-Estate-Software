@@ -26,6 +26,10 @@ android {
             )
         }
     }
+    buildFeatures {
+        dataBinding = true // for data binding
+        viewBinding = true // for view binding
+    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -47,5 +51,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation ("androidx.recyclerview:recyclerview:1.4.0")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
 
 }

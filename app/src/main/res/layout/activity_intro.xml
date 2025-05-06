@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IntroActivity">
+    tools:context=".Activity.IntroActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -46,7 +46,7 @@
                 app:srcCompat="@drawable/intro_pic" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button"
+                android:id="@+id/btnStr"
                 android:layout_width="125dp"
                 android:layout_gravity="end"
                 android:layout_marginEnd="24dp"
