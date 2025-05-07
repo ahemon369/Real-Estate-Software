@@ -19,6 +19,10 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.Viewholder> 
     ArrayList<PropertyDomain> items;
     Context context;
     ViewholderItemBinding binding;
+
+    public ItemsAdapter(ArrayList<PropertyDomain> items){
+        this.items = items;
+    }
     @NonNull
     @Override
     public ItemsAdapter.Viewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
